@@ -25,7 +25,7 @@ public class Mailaosa : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         var pallo = other.GetComponent<Pallo>();
         if (pallo.Hit) return;
-        Debug.Log("nyt osui: "+ gameObject.transform.rotation);
+        Debug.Log("nyt osui: "+ gameObject.transform.eulerAngles);
     
         var rigidB = pallo.GetRigidbody();
         rigidB.AddForce(new Vector3(gameObject.transform.rotation.x * 100,1 * voimakkuusY,1 * voimakkuusZ), ForceMode.VelocityChange);

@@ -10784,6 +10784,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cf2d1a86a683a4217bb965b8324986d4, type: 3}
+--- !u!4 &196910896 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2513893200371592466, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
+  m_PrefabInstance: {fileID: 2992852791406915335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &215966275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28563,6 +28568,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5851039323889267111, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
   m_PrefabInstance: {fileID: 2992852791406915335}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1309812652 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1309812652, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
+  m_PrefabInstance: {fileID: 2992852791406915335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7f0ed363b4f4a14980472a390ae417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1337718509
 GameObject:
   m_ObjectHideFlags: 0
@@ -36005,30 +36021,22 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5024181284959551326, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
-      propertyPath: moveSpeed
+    - target: {fileID: 1309812653, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
+      propertyPath: maxAngle
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1309812653, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
+      propertyPath: animationSpeed
       value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 5024181284959551326, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
-      propertyPath: rotateSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024181284959551326, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
-      propertyPath: maxLeftTurningMoveVector.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024181284959551326, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
-      propertyPath: maxLeftTurningMoveVector.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024181284959551326, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
-      propertyPath: maxRightTurningMoveVector.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024181284959551326, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
-      propertyPath: maxRightTurningMoveVector.z
-      value: 2
-      objectReference: {fileID: 0}
+    - target: {fileID: 1309812653, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
+      propertyPath: handTransformer
+      value: 
+      objectReference: {fileID: 196910896}
+    - target: {fileID: 1309812653, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
+      propertyPath: <SisapelaajaInputReader>k__BackingField
+      value: 
+      objectReference: {fileID: 1309812652}
     - target: {fileID: 5851039323889267111, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -36077,7 +36085,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Sis\xE4pelaaja"
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1309812651, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b9c9d28199474d7c9f094015ee1a995, type: 3}
 --- !u!1001 &3733835568800862630
